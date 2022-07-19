@@ -37,9 +37,9 @@ Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/TugasEduwork/TugasShopSamsung/android.widget.ImageView (3)'), 0)
 
-Mobile.swipe(0, 2000, 0, 0)
-
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(0, 2000, 0, 0)
 
 Mobile.tap(findTestObject('Object Repository/TugasEduwork/TugasShopSamsung/android.widget.TextView - SPECS'), 0)
 

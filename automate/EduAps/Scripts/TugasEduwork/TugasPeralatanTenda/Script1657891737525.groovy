@@ -23,9 +23,12 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/TugasEduwork/TugasPeralatanTendaDetail/android.widget.ImageButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/TugasEduwork/TugasPeralatanTendaDetail/android.widget.CheckedTextView - Peralatan'), 0)
+Mobile.tap(findTestObject('Object Repository/TugasEduwork/TugasPeralatanTendaDetail/android.widget.CheckedTextView - Peralatan'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/TugasEduwork/TugasPeralatanTendaDetail/android.widget.RelativeLayout'), 0)
+
+Mobile.swipe(0, 1000, 0, 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
