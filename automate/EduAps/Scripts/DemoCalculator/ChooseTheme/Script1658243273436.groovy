@@ -17,29 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('mobileapp\\HappyDayShopping_v1.2.apk', true)
+Mobile.startApplication('mobileapp/Calculator_v8.1.apk', false)
 
-Mobile.tap(findTestObject('Shop/FlashSale/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('DemoCalculator/dotThree_Button'), 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('DemoCalculator/Choosetheme_Menu'), 0)
 
-Mobile.tap(findTestObject('Shop/FlashSale/android.view.ViewGroup'), 0)
-
-Mobile.tap(findTestObject('Shop/FlashSale/android.view.ViewGroup (1)'), 0)
-
-Mobile.setText(findTestObject('Shop/FlashSale/android.widget.EditText - 1'), '5', 0)
-
-Mobile.tap(findTestObject('Object Repository/Shop/FlashSale/android.widget.TextView - Add to Bag'), 0)
-
-Mobile.tap(findTestObject('Shop/FlashSale/YourBAg'), 0)
-
-Mobile.tap(findTestObject('Shop/FlashSale/Checkout'), 0)
-
-Mobile.tap(findTestObject('Shop/FlashSale/chromeJUST ONCE'), 0)
-
-Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.getText(findTestObject('Shop/FlashSale/GetTex1'), 0)
+Mobile.tap(findTestObject('DemoCalculator/OK_Button'), 0)
 
 Mobile.closeApplication()
 

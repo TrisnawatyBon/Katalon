@@ -17,13 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('mobileapp/Calculator_v8.1.apk', false)
+Mobile.startApplication('mobileapp\\HappyDayShopping_v1.2.apk', true)
 
-Mobile.tap(findTestObject('MobileCalculator/dotThree_Button'), 0)
+Mobile.tap(findTestObject('TugasEduwork/TugasFlashSale/android.view.ViewGroup'), 0)
 
-Mobile.tap(findTestObject('MobileCalculator/Choosetheme_Menu'), 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('MobileCalculator/OK_Button'), 0)
+Mobile.tap(findTestObject('TugasEduwork/TugasFlashSale/android.view.ViewGroup'), 0)
+
+Mobile.tap(findTestObject('TugasEduwork/TugasFlashSale/android.view.ViewGroup (1)'), 0)
+
+Mobile.setText(findTestObject('TugasEduwork/TugasFlashSale/android.widget.EditText - 1'), '5', 0)
+
+Mobile.tap(findTestObject('Object Repository/TugasEduwork/TugasFlashSale/android.widget.TextView - Add to Bag'), 0)
+
+Mobile.tap(findTestObject('TugasEduwork/TugasFlashSale/YourBAg'), 0)
+
+Mobile.tap(findTestObject('TugasEduwork/TugasFlashSale/Checkout'), 0)
+
+Mobile.tap(findTestObject('TugasEduwork/TugasFlashSale/chromeJUST ONCE'), 0)
+
+Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.getText(findTestObject('TugasEduwork/TugasFlashSale/GetTex1'), 0)
 
 Mobile.closeApplication()
 

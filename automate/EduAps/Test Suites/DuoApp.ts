@@ -15,7 +15,7 @@
       <guid>5adbb22b-0796-4747-9134-ca7155623d87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator/ChooseTheme</testCaseId>
+      <testCaseId>Test Cases/DemoCalculator/ChooseTheme</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>FlashSale</name>
+   <name>TugasFlashSale</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>52fee900-3200-4873-88ef-28e9a384cc60</testCaseGuid>
